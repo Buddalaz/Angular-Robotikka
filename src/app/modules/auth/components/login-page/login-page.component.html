@@ -1,0 +1,25 @@
+<div class="main-wrap">
+  <div class="content-wrap">
+    <div class="left">
+      <h3 class="business-name">
+        Robotikka
+      </h3>
+      <div class="loading-area">
+        <div class="inner-wrap">
+            <ul class="list">
+              <li routerLinkActive="activated-route" routerLink="/auth/login/access">
+                <span>Login</span>
+              </li>
+              <li routerLinkActive="activated-route" routerLink="/auth/login/register">
+                <span>Sign Up</span>
+              </li>
+            </ul>
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <img src="https://www.wozur.com/wozur/public/user_files/images/Login.png" alt="bg-img">
+    </div>
+  </div>
+</div>
